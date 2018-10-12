@@ -1,0 +1,627 @@
+body {
+	font-family: Arial, 'sans-serif';
+	min-width: 986px;
+}
+
+b { font-weight: bold } i { font-style: italic; }
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Times New Roman';
+	color: #2f6b5b;
+}
+
+h3 {
+	margin: 1em 0 0;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	list-style-type: none;
+}
+
+input {
+	color: #6f7a6a;
+}
+
+textarea {
+	height: 6em;
+	resize: none;
+}
+
+img {
+	display: inline-block;
+	max-width: 100%;
+}
+
+a {
+	color: #2f6b5b;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #A49832;
+}
+
+iframe {
+	border: 0;
+}
+
+.sitewidth {
+	max-width: 1224px;
+	margin: 0 auto;
+	min-width: 969px;
+}
+
+.middle {
+	margin: 0 auto;
+}
+
+.txtmiddle {
+	text-align: middle;
+}
+
+#header {
+	position: relative;
+	background-color: #92c29c;
+	font-family: 'Times New Roman';
+}
+
+#header li {
+	display: inline-block;
+	margin-left: -4px;
+}
+
+#header a {
+	font-size: 1.15em;
+	color: #2f6b5b;
+	text-decoration: none;
+}
+
+#header .right {
+	background: url("../../img/icons/ukmapheader.png") no-repeat left bottom transparent;
+	text-align: right;
+	width: 210px;
+	padding: 0.2em 0.4em 0 0;
+}
+
+#header .right li {
+	display: block;
+	color: #FFF;
+	line-height: 1.6em;
+}
+
+#header .right li a {
+	color: #FFF;
+}
+
+#header #mail:hover {
+	color: #f1ffb4;
+}
+
+#header #soc:hover{
+	opacity: 0.5;
+}
+
+#nav {
+	background-color: #d7ebcf;
+	text-align: center;
+	padding: 0;
+	box-shadow: 0 1px 3px 0px #49804e;
+	clear: both;
+}
+
+#nav a {
+	display: inline-block;
+	padding: 0.4em 1.4em;
+	margin-left: -1px;
+	border-left: 1px solid #9bbd9c;
+	border-right: 1px solid #9bbd9c;
+}
+
+#nav li:first-of-type a {
+	border-left: 1px solid #9bbd9c;
+}
+
+#nav a:hover {
+	background-color: #f0ffec;
+}
+
+#nav a.active {
+	background-color: #f0ffec;
+}
+
+
+#page {
+	
+}
+
+#page #textoverflow {
+	font-size: 0.9em;
+	color: #1e643f;
+	height: 1.4em;
+	line-height: 1.2em;
+	text-align: center;
+	padding: 0 0.6em;
+	margin: 0.6em auto;
+	overflow: hidden;
+}
+
+#page #textoverflow span {
+	margin: 0 0.6em;
+}
+
+
+#aside {
+	width: 33%;
+	padding: 0 0 1em;
+}
+
+#aside img {
+	display: block;
+	max-width: 98%;
+	margin: 0 auto;
+	border: 1px solid #92c29c;
+	border-radius: 4px;
+}
+
+#aside h2 {
+	margin: 1em 0 0.4em 1em;
+}
+
+
+#main {
+	font-size: 0.95em;
+	width: 66%;
+	margin: 0 auto;
+}
+
+#bookingbox {
+	background-color: #d7ebcf;
+	text-align: left;
+	padding: 0 0.4em 0.4em;
+	margin: 1em 0 1em 0.4em;
+	border: 1px solid #92c29c;
+	border-radius: 4px;
+	vertical-align: top;
+}
+
+#bookingbox h2 {
+	font-size: 1.95em;
+	font-weight: normal;
+	text-align: left;
+	color: #000;
+	margin: 0 0 0.6em;
+}
+
+#bookingbox div {
+	margin: 0.3em auto;
+	clear: both;
+}
+
+#bookingbox div:first-of-type {
+	text-align: left;
+}
+
+#bookingbox div:first-of-type select {
+	float: right;
+	margin: -7px 0 0;
+}
+
+#bookingbox label {
+	width: 20%;
+	vertical-align: middle;
+}
+
+#bookingbox input, #bookingbox textarea {
+	float: right;
+	width: 80%;
+	margin: 0.1em auto;
+	border: 1px solid #ccc;
+	border-radius: 0;
+}
+
+#bookingbox input[type="submit"] {
+	display: block;
+	float: none;
+	background-color: #f1ffb4;
+	color: #000;
+	width: auto;
+	padding: 0.5em 2em;
+	margin: 0.8em auto 0;
+}
+
+#pgabout {
+	background: #FFF url('../../img/bgpic.jpg') no-repeat center bottom;
+	background-size: 100% auto;
+}
+
+#pgabout #main {
+	margin: 0 auto 30%;
+}
+
+#pgabout #ftout {
+	color: white;
+}
+
+#pgabout #right2 a {
+	color: white;
+}
+
+#pgbookonline #bookingbox {
+	display: inline-block;
+	width: 414px;
+}
+
+#pgbookonline #accordion {
+	text-align: center;
+}
+
+#pgbookonline #accordion table tr:first-of-type {
+	font-weight: 600;
+	color: #2f6b5b;
+	margin: 0 0 0.4em;
+}
+
+#pgbookonline #accordion td {
+	text-align: center;
+	width: 20%;
+}
+
+#pgbookonline #accordion td:first-of-type {
+	text-align: left;
+	width: 62%;
+}
+
+#pgbookonline #accordion td:last-of-type {
+	text-align: left;
+	width: 15%;
+}
+
+#pgcontactus #main {
+	width: 750px;
+	font-size: 21px;
+	margin: 3em auto 40em;
+}
+
+#pgcontactus #bookingbox {
+	background-color: #FFF;
+	border: none;
+	text-align: right;
+}
+
+#pgcontactus #bookingbox input, #bookingbox textarea {
+	width: 98%;
+	margin: 0.7em auto
+}
+
+#pgcontactus #bookingbox div {
+	margin: 0.3em auto;
+}
+
+#pgcontactus #bookingbox input, #pgcontactus #bookingbox textarea {
+	width: 125%;
+}
+
+#pgcontactus #bookingbox input[type="submit"] {
+	display: inline;
+	float: left;
+	width: 200px;
+	margin: 0.8em auto 0;
+	padding: 0.3em 1.6em;
+}
+
+#pgcontactus #bookingbox div:first-of-type select {
+	float: left;
+	margin: -7px -59px 0;
+}
+
+#pgcontactus .left {
+	
+}
+
+#pgcontactus .right {
+	
+}
+
+#pgcontactus #socialings {
+	text-decoration: none;
+}
+
+#pgcontactus #socialings img {
+	display: table-caption;
+	width: 46%;
+}
+
+#pgcontactus #soc:hover {
+	opacity: 0.5;
+}
+
+#pgcontactus #socialings img#sticky {
+	width: 85%;
+	margin-top: 2em;
+}
+
+#pgthingstodo h2 {
+	font-size: 2.4em;
+	text-align: center;
+	margin-left:-53px;
+}
+
+#bookonline-iframe {
+	width: 720px;
+	height: 472px;
+	margin: 0 0 1em;
+}
+
+
+.fotorama {
+	padding: 0 0.6em 0 0;
+}
+
+.fotorama__nav-wrap {
+	position: absolute;
+	bottom: 8px;
+	left: 0;
+	width: 98.5%;
+	padding: 0 0 0 0.4em;
+}
+
+.fotorama__nav {
+	text-align: none;
+}
+
+.fotorama__nav__shaft {
+	float: left;
+	background-color: rgba(146, 194, 156, 0.8);
+	padding: 0 6px 4px 0;
+	border-radius: 4px;
+}
+
+.fotorama__dot {
+	background: url('../../img/icons/slshowinactive.png') no-repeat center center transparent;
+	width: 10px;
+	height: 10px;
+	border: 0;
+	border-radius: 0;
+}
+
+.fotorama__nav__frame--dot {
+	margin: 0 0 -2px 5px;
+}
+
+.fotorama__nav__frame--dot div {
+	margin: 0 0;
+}
+
+.fotorama__active {
+	background: url('../../img/icons/slshowactive.png') no-repeat center center transparent;
+	background-position: center 12px;
+}
+
+.fotorama__caption__wrap {
+	position: absolute;
+	right: 0;
+	bottom: 32px;
+	background-color: rgba(255, 255, 255, 0.85);
+	font-family: 'Times New Roman';
+	font-size: 2.2em;
+	text-align: center;
+	color: #9bbd9c;
+	width: 180px;
+	padding: 8px 6px;
+}
+
+.fotorama__wrap 
+.fotorama__wrap--css3 
+.fotorama__wrap--slide 
+.fotorama__wrap--toggle-arrows 
+.fotorama__wrap--no-controls {
+	margin: auto;
+}
+
+#pgthingstodo .fotorama__wrap {
+	margin-top: -22px;
+}
+
+.ui-accordion-content 
+.ui-helper-reset 
+.ui-widget-content 
+.ui-corner-bottom 
+.ui-accordion-content-active {
+	height: 159.133px;
+}
+
+#accordion {
+	color: #FFF;
+	font-size: 0.95em;
+	margin: 1em 0;
+}
+
+#accordion img {
+	float: right;
+	max-width: 360px;
+}
+
+.ui-accordion
+.ui-accordion-header {
+	font-size: 23px;
+	padding: 5px 14px 6px
+}
+
+.ui-accordion .ui-accordion-content {
+	padding: 1em 1em;
+	height: 324px;
+}
+
+#pglocation .ui-accordion .ui-accordion-content {
+	height: 165.133px;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+	background: #d7ebcf;
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+	background: #92c29c;
+	color: #FFF;
+	font-weight: bold;
+}
+
+#pgcottages #accordion .ui-accordion-content {
+	height: 380px; /*360*/
+}
+
+#pgbookingthanks #page, #pgcontactthanks #page {
+	font-size: 1.2em;
+	text-align: center;
+}
+
+#pgbookingthanks #page h2, #pgcontactthanks #page h2 {
+	font-size: 46px;
+	margin-bottom: 0;
+}
+
+#pgbookingthanks #page span, #pgcontactthanks #page span {
+	display: inline-block;
+	margin: 0 1em;
+}
+
+#pgbookingthanks #page .circlelogo, #pgcontactthanks #page .circlelogo {
+	margin: 1.2em auto 4em;
+}
+
+#accordion .fotorama {
+	float: right;
+}
+
+#footer {
+	display: block;
+	position: relative;
+	background-color: #92c29c;
+	color: #FFF;
+	font-size: 0.9em;
+	height: 53px;
+	padding: 0.4em 1%;
+	margin: 1em 0 0;
+	clear: both;
+}
+
+#footer .right {
+	float: none;
+	position: absolute;
+	right: 8px;
+	top: 15px;
+	text-align: right;
+}
+
+#ftod {
+	width: 93px;
+}
+
+#ftout {
+	color: #2f6b5b;
+	font-size: 10px;
+	padding: 0.5em
+}
+
+#ftout span {
+	font-size: 10px !important;
+}
+
+#right2 a {
+	margin: 0em 0.9em 0em;
+	font-size: 1.2em;
+	font-weight: bold;
+	text-align: end;
+}
+
+#pg #bookingbox, #pghome #bookingbox {
+	margin-top: 0;
+}
+
+#pgbookonline #bookingbox {
+	max-width:50%;
+}
+
+
+.list {
+	color: #92c29c;
+	margin: 1em 0;
+}
+
+.list li {
+	list-style: square inside none;
+	margin: 0.4em 0 0;
+}
+
+.list li span {
+	color: #000;
+}
+
+.left { float: left; }
+.right { float: right; }
+
+.overflowx { overflow-x: hidden; }
+.overflowy { overflow-y: hidden; }
+
+#mainwrapper {
+	font: 10pt normal Arial, sans-serif;
+	height: auto;
+	text-align: center;
+	margin:auto;
+}
+
+#mainwrapper .box {
+	position: relative;
+	overflow: hidden;
+	border: 1px solid #2f6b5b;
+	border-radius: 9px;
+	display: inline-block;
+	margin: 0 1em 0;
+	width: 438px;
+	height: 86px;
+	cursor: pointer;
+}
+
+#mainwrapper .box img {
+	left: 0;
+	position: absolute;
+	width: 100%;
+	transition: all 300ms ease-out;
+		-moz-transition: all 300ms ease-out; -webkit-transition: all 300ms ease-out; -o-transition: all 300ms ease-out; -ms-transition: all 300ms ease-out;
+}
+
+#mainwrapper .box .caption {
+	background-color: #9bbd9c;
+	position: absolute;
+	left: 0;
+	color: #fff;
+	z-index: 100;
+	transition: all 300ms ease-out;
+		-moz-transition: all 300ms ease-out; -webkit-transition: all 300ms ease-out; -o-transition: all 300ms ease-out; -ms-transition: all 300ms ease-out;
+}
+
+#mainwrapper .box .caption a {
+	text-decoration: none;
+	color: white;
+	font-size: 17px;
+	
+	display: block;
+	width: 438px;
+	padding: 32px 0 0;
+}
+
+#mainwrapper .box .fade-caption, #mainwrapper .box .scale-caption {
+	opacity: 0;
+	width: 460px;
+	height: 95px;
+	/*padding: 17px 0px 0px;*/
+}
+
+#mainwrapper .box:hover .fade-caption {
+	opacity: 2;
+}
