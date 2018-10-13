@@ -1,6 +1,6 @@
 
 <!-- FORM, modded to work with existing script -->
-<form method="POST" action="http://www.allenderfarm.com/cgi-scripts/FormMail.pl" id="bookingbox">
+<form method="POST" action="http://www.allenderfarm.com/cgi-scripts/customsMail.pl" id="bookingbox">
 	<input type="hidden" name="recipient" value="allenderfarm@btinternet.com">
 	<input type="hidden" name="redirect" value="http://www.allenderfarm.co.uk/node.php?p=BookingThanks">
 	
