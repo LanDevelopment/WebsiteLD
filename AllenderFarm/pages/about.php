@@ -27,15 +27,7 @@
 </p>
 
 <p>
-	 In season we have guinea foul, chickens, ducks, turkeys, lambs, pigs, guinea-pigs and an incubator house for hatching our eggs from Easter until the end of the summer holidays and ask our visitors to join us twice daily for "feeding time", egg collection and general help as part of their holiday enjoyment. 
-</p>
-
-<p>
-	Our holiday accommodation is mainly converted from traditional existing barns and out-buildings to a high standard with your comfort in mind. For the children, we have arranged a play area with a swing, climbing frame, slide and various other toys to allow them to burn off excess energy and give parents a break.
-</p>
-
-<p>
-	For the adults we have B-B-Q's  for those wishing to cook outside and enjoy the un-spoilt views when eating.
+	We have B-B-Q's  for those wishing to cook outside and enjoy the un-spoilt views when eating.
 </p>
 
 <p>

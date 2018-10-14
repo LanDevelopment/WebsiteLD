@@ -14,10 +14,7 @@
 		<select name="cottage">
 			<option selected>Select</option>
 			<option value="Primrose">Primroseee</option>
-			<option value="Azalea">Azalea</option>
-			<option value="Jasmine">Jasmine</option>
 			<option value="Bluebell">Bluebell</option>
-			<option value="Honeysuckle">Honeysuckle</option>
 		</select>
 	</div>
 
@@ -324,99 +321,3 @@
 		</a>
 	</div>
 </form>
-
-
-
-
-<!--ORIGINAL: <form method="post" action="" id="bookingbox">
-	<?php
-		if (!empty($error))
-			echo "Errors:" . $error;
-	?>
-
-	<h2>
-		Book your holiday today!
-	</h2>
-
-
-	<div><label>Cottage Selection:</label>
-
-	<select name="cottage">
-		<option value="Select" selected>Select</option>
-		<option value="Primrose">Primrose</option>
-		<option value="Azalea">Azalea</option>
-		<option value="Jasmine">Jasmine</option>
-		<option value="Bluebell">Bluebell</option>
-		<option value="Honeysuckle">Honeysuckle</option>
-	</select></div>
-
-	<div style="text-align:left; margin:1em 0 0.2em;">
-		Length of stay:
-	</div>
-
-	<div>
-		<label>From:</label>
-		<input type="text" name="from" value="" id="datepicker-arrive">
-	</div>
-
-	<div style="margin:0 0 1.3em;">
-		<label>To:</label>
-		<input type="text" name="to" value="" id="datepicker-leave">
-	</div>
-
-	<div>
-		<label>Name:</label>
-		<input type="text" name="name" value="">
-	</div>
-
-	<div>
-		<label>Phone:</label>
-		<input type="text" name="phone" value="">
-	</div>
-
-	<div>
-		<label>E-mail:</label>
-		<input type="text" name="email" value="">
-	</div>
-
-	<div>
-		<label>Pets:</label>
-		<input type="text" name="pets" value="">
-	</div>
-
-	<div>
-		<label>Address:</label>
-		<input type="text" name="address1" value="" style="width:75%">
-	</div>
-	<div><input type="text" name="address2" value=""></div>
-
-	<div>
-		<label>Your message:</label>
-	</div>
-
-	<div>
-		<textarea name="message" style="float:left;width:99%;"></textarea>
-	</div>
-
-	<div style="text-align:center; margin:2.4em 0 0">
-		<label>Adults:</label>
-
-		<select name="adults">
-			<option value="Select" selected>Select</option>
-			<option value="1">1</option>
-			<option value="2">2</option>
-		</select>
-
-		<label style="margin-left: 1.3em;">Children:</label>
-
-		<select name="children">
-			<option value="Select" selected>Select</option>
-			<option value="1">1</option>
-			<option value="2">2</option>
-		</select>
-	</div>
-
-	<div>
-		<input type="submit" name="BookOnlineSubmit" value="Submit">
-	</div>
-</form>-->

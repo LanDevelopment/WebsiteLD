@@ -8,11 +8,11 @@
 	</span></li>
 
 	<li><span>
-		When the booking has been confirmed the hirer becomes liable for the total rental cost and the outstanding balance is due 45 days prior to the start date of the rental period or at the discretion of the owners.
+		When the booking has been confirmed the hirer becomes liable for the total rental cost and the outstanding balance is due at the time specified in the confirmation letter.
 	</span></li>
 
 	<li><span>
-		The owners take all bookings in good faith but in the unlikely event or occurrence making it necessary to cancel the booking the owner's liability shall be limited to the monies paid and any amounts will be re-paid.
+		The owners take all bookings in good faith but in the unlikely event or occurrence making it necessary to cancel the booking the owner’s liability shall be limited to the monies paid and any amounts will be re-paid.
 	</span></li>
 
 	<li><span>
@@ -20,7 +20,7 @@
 	</span></li>
 
 	<li><span>
-		Provisional bookings can be made and will be held for a maximum of 3 days prior to being re-offered.
+		Provisional booking can be made and will be held for a maximum of 3 days prior to being    re-offered.
 	</span></li>
 
 	<li><span>
@@ -44,38 +44,62 @@
 	</span></li>
 
 	<li><span>
-		All children's play equipment on the premises is used at the hirers risk and children must be supervised at all times when this is in use.
+		All children’s play equipment on the premises is used at the hirers risk and children must be supervised at all times when this is in use.
 	</span></li>
 
 	<li><span>
-		From September to mid May we welcome guests for short breaks. Arrival can be on any day of the week. Please call for prices and availability.
+		Smoking is not permitted in any of the cottages.
 	</span></li>
 
 	<li><span>
-		Prices include electricity, heating, bed linen and towels for use in the accommodation.
+		Any issues with the cottages must be raised with the owners or their representatives prior to your departure as errors or omissions cannot be rectified after your departure.
 	</span></li>
 
-	<li><span>
-		High chairs and cots are provided free of charge by arrangement prior to arrival.
-	</span></li>
+<h2>
+	Short Breaks
+</h2>
+		<li><span>
+			Outside of the main holidays of Easter, Whitsun & the school summer holidays we welcome guests for short breaks. Arrival can be on any day of the week. Please call for prices and availability.
+		</span></li>
 
-	<li><span>
-		Dogs are welcome (a maximum of 2 per cottage) and charged at £20 per week each. Owners are responsible at all times to ensure that dogs are kept under control. Dogs must not be left alone in the cottages at any time. It is essential that the owners clear up after their dogs at all times.
-	</span></li>
+<h2>
+Additional Items
+</h2>
+		<li><span>
+			Prices include electricity, heating, bed linen and towels for use in the accommodation.
+		</span></li>
+		<li><span>
+			High chairs and travel cots are provided free of charge by arrangement prior to arrival.
+		</span></li>
 
-	<li><span>
-		There is no charge made for Guide or Hearing dogs.
-	</span></li>
+<h2>
+Pets
+</h2>
+		<li><span>
+			Dogs are welcome (a maximum of 2 per cottage).
+		</span></li>
+		<li><span>
+			Owners are responsible at all times to ensure that dogs are kept under control. Dogs must not be left alone in the cottages at any time without consent of the owners of Allender Farm. It is essential that the owners clear up after their dogs at all times.
+		</span></li>
 
-	<li><span>
-		Your grocery items can be delivered to take the pressure off your planning. Alternatively most supermarkets will accept Internet orders for delivery here. It is essential if you use this facility that you inform us of the date and time of the delivery so we are here to accept it.
-	</span></li>
+<h2>
+Grocery Delivery
+</h2>
+		<li><span>
+			Your grocery items can be delivered by most major supermarkets to take the pressure off your planning. Please advise us prior to your arrival of the time slot allocated so we can be in to accept the delivery if it arrives before you do.
+		</span></li>
 
-	<li><span>
-		Home made meal can be provided for the day of your arrival subject to prior arrangement.
-	</span></li>
+<h2>
+Meals on arrival
+</h2>
 
-	<li><span>
-		Baby Sitting can be arranged with the owners at a cost of £5 per hour. 
-	</span></li>
-</ul>
+		<li><span>
+			Home made bread and soup, a casserole or something similar can be provided for the day of your arrival subject to prior arrangement.
+		</span></li>
+
+<h2>
+Baby Sitting
+</h2>
+		<li><span>
+			Can be arranged with the owners.
+		</span></li>

@@ -14,11 +14,13 @@
 	<link rel="stylesheet" href="bits/css/fotorama.css">
 	<link rel="stylesheet" href="bits/css/jquery-ui.css">
 	<link rel="stylesheet" href="bits/css/styles.css">
+	<link rel="stylesheet" href="bits/css/maps.css">
 	<link type="image/png" rel="shortcut icon" href="img/favicon.png">
 	<script type="text/javascript" src="bits/js/jquery.min.js"></script>
 	<script type="text/javascript" src="bits/js/fotorama.js"></script>
 	<script type="text/javascript" src="bits/js/jquery-ui.min.js"></script>
 	<script type="text/javascript" src="bits/js/scripts.js"></script>
+	<script type="text/javascript" src="bits/js/maps.js"></script>
 	<!--[if lt IE 9]><script type="text/javascript" src="bits/js/modernizr.js"></script><![endif]-->
 	<!--[if lte IE 7]><style type="text/css">
 		#header li { display: inline; }
@@ -41,31 +43,31 @@
 			<a href="?p=Home">
 				<img src="img/logo.png" alt="logo" id="logo">
 			</a>
-			
+
 			<div class="right">
 				<ul>
 					<li>
 						Tel: 01271 866679
 					</li>
-					
+
 					<li>
 						<a href="mailto:allenderfarm@btinternet.com" id="mail">
 							allenderfarm@btinternet.com
 						</a>
 					</li>
-					
+
 					<li>
 						<a href="http://twitter.com/allender_farm" id="soc">
 							<img alt="twitter" src="img/icons/twiticon.png">
 						</a>
-						<a href="http://facebook.com/" id="soc">
+						<a href="https://www.facebook.com/pages/Allender-Farm/182789665100227" id="soc">
 							<img alt="facebook" src="img/icons/fbicon.png">
 						</a>
 					</li>
 				</ul>
 			</div>
 		  </div>
-		
+
 			<nav id="nav">
 			  <div class="sitewidth">
 				<ul>
@@ -74,60 +76,67 @@
 							Home
 						</a>
 					</li>
-					
+
 					<!--<li>
 						<a href="?p=News" class="<?php if($_GET['p']=='News'){echo 'active';} ?>">
 							News
 						</a>
 					</li>-->
-					
+
 					<li>
 						<a href="?p=About" class="<?php if($_GET['p']=='About'){echo 'active';} ?>">
 							About
 						</a>
 					</li>
-					
+
 					<li>
 						<a href="?p=Cottages" class="<?php if($_GET['p']=='Cottages'){echo 'active';} ?>">
 							The Cottages
 						</a>
 					</li>
-					
+
 					<li>
 						<a href="?p=Location" class="<?php if($_GET['p']=='Location'){echo 'active';} ?>">
 							Location
 						</a>
 					</li>
-					
+
 					<li>
 						<a href="?p=Thingstodo" class="<?php if($_GET['p']=='Thingstodo'){echo 'active';} ?>">
 							Things to do
 						</a>
 					</li>
-					
+
 					<!--<li>
 						<a href="?p=Testimonials" class="<?php if($_GET['p']=='Testimonials'){echo 'active';} ?>">
 							Testimonials
 						</a>
 					</li>-->
-					
+
 					<li>
 						<a href="?p=BookOnline" class="<?php if($_GET['p']=='BookOnline'){echo 'active';} ?>">
 							Book Online
 						</a>
 					</li>
-					
+
 					<li>
 						<a href="?p=ContactUs" class="<?php if($_GET['p']=='ContactUs'){echo 'active';} ?>">
 							Enquiries
 						</a>
 					</li>
+
+					<li>
+						<a href="?p=DroneFootage" class="<?php if($_GET['p']=='DroneFootage'){echo 'active';} ?>">
+							Drone Footage!
+						</a>
+					</li>
+
 				</ul>
 			  </div>
 			</nav>
 		</header>
-		
-		
+
+
 		<main id="page">
 		 <div class="sitewidth">
 			<?php if (empty($_GET['p']) || $_GET['p'] == 'Home')
@@ -135,7 +144,7 @@
 					Dog Friendly <span>-</span> Family Friendly <span>-</span> Close to local attractions &amp; beaches <span>-</span> Farm Experience <span>-</span> Outstanding Views <span>-</span> Baby sitting <span>-</span> Meal on arrival
 				</div>';
 			?>
-			
+
 			<section id="main" class="right">
 				<?php
 					if (!$_GET['p'] || $_GET['p'] == '')
@@ -144,7 +153,7 @@
 						include 'pages/' . strtolower($_GET['p']) . '.php';
 				?>
 			</section>
-			
+
 			<aside id="aside" class="left">
 				<?php
 					if (!$_GET['p'] || $_GET['p'] == '')
@@ -156,24 +165,24 @@
 		</div>
 	  </div>
 	</main>
-	
+
 	<footer id="footer">
 		<span class="right">
-			Website developed by 
+			Website developed by
 			<br><a href="http://usrnix.net/">Joe &amp; Val</a>
 		</span>
 	</footer>
-	
+
 	<div id="ftout">
 		<span>
 			&copy; Allender Farm 2014
 		</span>
-		
+
 		<div id="right2" class= "right">
 			<a href="?p=TermsAndConditions">
 				Terms &amp; Conditions
 			</a>
-		
+
 			<a href="?p=ContactUs">
 				Contact us
 			</a>

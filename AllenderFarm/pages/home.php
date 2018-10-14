@@ -1,10 +1,7 @@
 
 <div class="fotorama" data-autoplay="true">
 	<img src="img/slideshow/primrose.JPG" alt="" data-caption="Primrose">
-	<img src="img/slideshow/azalea.JPG" alt="" data-caption="Azalea">
-	<img src="img/slideshow/jasmine.JPG" alt="" data-caption="Jasmine">
 	<img src="img/slideshow/bluebell.JPG" alt="" data-caption="Bluebell">
-	<img src="img/slideshow/honeysuckle.JPG" alt="" data-caption="Honeysuckle">
 </div>
 
 
@@ -21,12 +18,7 @@
 </p>
 
 <p>
-	In season we have guinea foul, chickens, ducks, turkeys, lambs, pigs, guinea-pigs and an incubator house for hatching our eggs from Easter until the end of the summer holidays and ask our visitors to join us twice daily for "feeding time", egg collection and general help as part of their holiday enjoyment.
-</p>
-
-<p>
 	<a href="?p=About">
 		Read more...
 	</a>
 </p>
-
