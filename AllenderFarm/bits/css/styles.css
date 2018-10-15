@@ -136,7 +136,7 @@ iframe {
 
 
 #page {
-	
+
 }
 
 #page #textoverflow {
@@ -320,11 +320,11 @@ iframe {
 }
 
 #pgcontactus .left {
-	
+
 }
 
 #pgcontactus .right {
-	
+
 }
 
 #pgcontactus #socialings {
@@ -352,8 +352,8 @@ iframe {
 }
 
 #bookonline-iframe {
-	width: 720px;
-	height: 472px;
+	max-width: 880px;
+	height: 600px;
 	margin: 0 0 1em;
 }
 
@@ -415,10 +415,10 @@ iframe {
 	padding: 8px 6px;
 }
 
-.fotorama__wrap 
-.fotorama__wrap--css3 
-.fotorama__wrap--slide 
-.fotorama__wrap--toggle-arrows 
+.fotorama__wrap
+.fotorama__wrap--css3
+.fotorama__wrap--slide
+.fotorama__wrap--toggle-arrows
 .fotorama__wrap--no-controls {
 	margin: auto;
 }
@@ -427,10 +427,10 @@ iframe {
 	margin-top: -22px;
 }
 
-.ui-accordion-content 
-.ui-helper-reset 
-.ui-widget-content 
-.ui-corner-bottom 
+.ui-accordion-content
+.ui-helper-reset
+.ui-widget-content
+.ui-corner-bottom
 .ui-accordion-content-active {
 	height: 159.133px;
 }
@@ -609,7 +609,7 @@ iframe {
 	text-decoration: none;
 	color: white;
 	font-size: 17px;
-	
+
 	display: block;
 	width: 438px;
 	padding: 32px 0 0;

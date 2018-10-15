@@ -7,7 +7,6 @@
 			include 'parts/prices.php';
 		?>
 	</div>
+	<iframe width="100%" src="" id="bookonline-iframe">
+	</iframe>
 </div>
-
-<iframe src="./ac-v3.04.04/" id="bookonline-iframe" style="display:block;margin:0 auto">
-</iframe>
